@@ -1,0 +1,79 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-table {
+    font-size: 30px;
+    min-height: 100%;
+    min-width: 100%;
+    margin: 0;
+    border-collapse: collapse;
+}
+
+.item1 {
+    background-color: #227344;
+    height: 25vh; /* Встановлюємо висоту заголовка на 25vh */
+}
+
+.item1 td:nth-child(2) {
+    text-align: end;
+    min-width: 90%;
+}
+
+.item2 {
+    background-color: #ace4e0;
+    width: 26%;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.item3 {
+    background-color: #ace4e0;
+    vertical-align: center;
+    width: 50%;
+}
+
+.item4 {
+    background-color: #ace4e0;
+    vertical-align: center;
+    width: 30%;
+    height: auto;
+    text-align: right;
+}
+
+.item5 {
+    background-color: #ace4e0;
+    height: 10vh;
+}
+
+.item6 {
+    background-color: #227344;
+    height: 25vh; /* Встановлюємо висоту футера на 25vh */
+}
+
+.item6 td:first-child {
+    text-align: left;
+}
+
+.item6 td:last-child {
+    text-align: right;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.item4 ul {
+    list-style-position: outside;
+    display: inline-block;
+    text-align: left;
+}
+
+
